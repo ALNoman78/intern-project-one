@@ -1,0 +1,209 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* shared styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+/* form section */
+.invoice {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-title {
+    width: 40%;
+}
+
+.form-head {
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.dotted-line {
+    border-bottom: 2px dotted black;
+    /* width: 45%; */
+}
+
+.left-side {
+    width: 16%;
+    align-items: end;
+    gap: 0;
+    margin: 5px;
+}
+
+.main-form {
+    border: 2px solid black;
+    margin-bottom: 30px;
+
+}
+
+.main-form-first {
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.main-form-first2 {
+    border-bottom: 2px solid black;
+}
+
+.main-form-first h3,
+.main-form-first2 {
+    padding: 0 10px;
+}
+
+#dot {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: calc(100% - 14px);
+    padding: 0 10px;
+}
+
+#dot {
+    margin-top: 10px;
+}
+
+#dot2 {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 14px;
+    width: calc(100% - 14px);
+    padding: 0 10px;
+}
+
+.form-head-title {
+    margin-bottom: 25px;
+}
+
+.third-row-title {
+    padding: 0 10px;
+}
+
+.gap {
+    padding: 15px;
+    gap: 38px;
+    border-left: 2px solid gray;
+}
+
+.gap2 {
+    border-left: 2px solid gray;
+}
+
+.padding {
+    padding: 14px;
+    gap: 14px;
+}
+
+.mb-4 {
+    margin: 0;
+}
+
+/* first and second form styles end */
+
+/* third section styles */
+.margin-f {
+    border-bottom: 2px solid black;
+    /* margin-bottom: 10px; */
+}
+
+.fouth-items {
+    margin-top: 50px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.hr {
+    height: 2px;
+    background: gray;
+    width: 100%;
+}
+
+.width {
+    width: 300px;
+    margin-top: 92px;
+}
+
+/* fourth form styles */
+.resize {
+    padding: 10px;
+    width: 78%;
+}
+
+/* fifth form styles */
+.formate-change {
+    justify-content: flex-end;
+    margin: 20px;
+    gap: 23px;
+    margin-top: 32px;
+}
+
+/* seventh form styles */
+.add-p3 {
+    padding: 10px;
+}
+
+.margin-added {
+    margin-top: 15px;
+}
+
+.w-5 {
+    width: 50%;
+}
+
+.dotted-line2 {
+    width: 68%;
+    border-bottom: 2px dotted black;
+}
+
+/* signature section */
+.signature-section {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.signature-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.dotted-line {
+    flex-grow: 1;
+    border-bottom: 1px dotted black;
+    margin: 0 10px;
+    height: 1em;
+}
+/* section 10 styles */
+.dotted-line3 {
+    width: 56%;
+    border-bottom: 2px dotted black;
+}
+
+/* last and final section */
+.main-form-first4{
+    padding: 10px;
+}
